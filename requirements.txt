@@ -1,0 +1,11 @@
+asyncio>=3.4.3
+typing-extensions>=4.0.0
+dataclasses>=0.6
+uuid>=1.30
+logging>=0.4.9.6
+json>=2.0.9
+threading>=1.0
+queue>=1.0
+time>=1.0
+abc>=1.0
+enum>=1.1.10
