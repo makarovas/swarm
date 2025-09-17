@@ -12,6 +12,11 @@ from .intelligence.collective_intelligence import (
     Vote, 
     CollectiveDecision
 )
+from .agents.ai_agent_base import AIAgentBase, AIModelConfig
+from .agents.openai_agent import OpenAIAgent
+from .agents.anthropic_agent import AnthropicAgent
+from .agents.local_llm_agent import LocalLLMAgent
+from .agents.multi_ai_agent import MultiAIAgent, MultiAIConfig
 
 __version__ = "1.0.0"
 __author__ = "Swarm Development Team"
@@ -41,5 +46,14 @@ __all__ = [
     "CollectiveIntelligence",
     "VotingMethod",
     "Vote",
-    "CollectiveDecision"
+    "CollectiveDecision",
+    
+    # AI Agents
+    "AIAgentBase",
+    "AIModelConfig",
+    "OpenAIAgent",
+    "AnthropicAgent", 
+    "LocalLLMAgent",
+    "MultiAIAgent",
+    "MultiAIConfig"
 ]
